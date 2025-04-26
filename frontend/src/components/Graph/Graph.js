@@ -50,7 +50,7 @@ const Graph = () => {
                 <thead className="bg-gray-100">
                     <tr>
                         <th className="px-6 py-3 text-left text-sm font-medium text-gray-600 uppercase tracking-wider">
-                            Item Name
+                            Photo Name
                         </th>
                         <th className="px-6 py-3 text-left text-sm font-medium text-gray-600 uppercase tracking-wider">
                             Quantity
