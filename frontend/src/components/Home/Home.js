@@ -24,12 +24,7 @@ const Home = () => {
       >
         View Photos
       </button>
-      <button
-        className="bg-red-500 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg transform hover:scale-105 transition duration-300 ease-in-out"
-        onClick={() => navigate("/graph")}
-      >
-        Graph view
-      </button>
+
     </div>
   </div>
   );
