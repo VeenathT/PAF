@@ -53,7 +53,7 @@ const Graph = () => {
                             Photo Name
                         </th>
                         <th className="px-6 py-3 text-left text-sm font-medium text-gray-600 uppercase tracking-wider">
-                            Quantity
+                            No of items
                         </th>
                     </tr>
                 </thead>
