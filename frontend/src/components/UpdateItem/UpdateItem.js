@@ -72,7 +72,7 @@ const UpdateItem = () => {
     <div>
       
       <div className="flex flex-col items-center p-4">
-      <h2 className="text-2xl font-bold mb-4">Update Item</h2>
+      <h2 className="text-2xl font-bold mb-4">Update photo</h2>
       <form id="itemForm" onSubmit={onSubmit} className="w-full max-w-lg">
         <label className="block text-sm font-medium text-gray-700">Item ID:</label>
         <input
@@ -84,7 +84,7 @@ const UpdateItem = () => {
           value={formData.itemId}
           className="mt-1 block w-full border border-gray-300 rounded-md p-2"
         />
-        <label className="block text-sm font-medium text-gray-700 mt-4">Item Name:</label>
+        <label className="block text-sm font-medium text-gray-700 mt-4">photo Name:</label>
         <input
           type="text"
           id="itemName"
@@ -104,10 +104,10 @@ const UpdateItem = () => {
           className="mt-1 block w-full border border-gray-300 rounded-md p-2"
         >
           <option value="" disabled>Select Item Category</option>
-          <option value="Electronics">Electronics</option>
-          <option value="Clothing">Clothing</option>
-          <option value="Books">Books</option>
-          <option value="Home">Home</option>
+          <option value="Electronics">landscape</option>
+          <option value="Clothing">street</option>
+          <option value="Books">wildlife</option>
+          <option value="Home">portrite</option>
           <option value="Other">Other</option>
         </select>
         <label className="block text-sm font-medium text-gray-700 mt-4">Item Quantity:</label>
