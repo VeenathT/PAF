@@ -44,7 +44,7 @@ const Graph = () => {
             </ResponsiveContainer>
            {lowStockItems.length > 0 && (
     <div className="mt-6">
-        <h3 className="text-lg font-semibold mb-4">Items with Low Stock:</h3>
+        <h3 className="text-lg font-semibold mb-4">Photos with Low Quality:</h3>
         <div className="overflow-x-auto">
             <table className="min-w-full bg-white border border-gray-200 rounded-lg shadow-md">
                 <thead className="bg-gray-100">
