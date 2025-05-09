@@ -52,7 +52,7 @@ function Navbar() {
       <nav className="navbar navbar-expand-lg navbar-light bg-light p-3">
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
-            Foodies App
+            Photography Life
           </Link>
           <button
             className="navbar-toggler"
